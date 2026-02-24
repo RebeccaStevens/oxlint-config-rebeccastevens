@@ -11,6 +11,8 @@ knip
 litecoin
 monero
 noreply
+oxc
+oxlint
 plugh
 quux
 qux

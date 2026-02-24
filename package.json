@@ -1,25 +1,21 @@
 {
-  "name": "__package_name__",
+  "name": "@rebeccastevens/oxlint-config",
   "version": "0.0.0-development",
   "private": true,
   "description": "",
   "keywords": [],
-  "homepage": "https://github.com/RebeccaStevens/template-typescript-node-package#readme",
+  "homepage": "https://github.com/RebeccaStevens/oxlint-config-rebeccastevens#readme",
   "bugs": {
-    "url": "https://github.com/RebeccaStevens/template-typescript-node-package/issues"
+    "url": "https://github.com/RebeccaStevens/oxlint-config-rebeccastevens/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RebeccaStevens/template-typescript-node-package"
+    "url": "git+https://github.com/RebeccaStevens/oxlint-config-rebeccastevens"
   },
   "funding": [
     {
       "type": "ko-fi",
       "url": "https://ko-fi.com/rebeccastevens"
-    },
-    {
-      "type": "tidelift",
-      "url": "https://tidelift.com/funding/github/npm/__package_name__"
     }
   ],
   "license": "BSD-3-Clause",
