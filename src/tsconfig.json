@@ -1,10 +1,10 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
+    "rootDir": ".",
     "allowJs": false,
     "declaration": true,
-    "isolatedDeclarations": true,
-    "rootDir": "."
+    "isolatedDeclarations": true
   },
   "include": [".", ".*"]
 }

@@ -1,16 +1,16 @@
-// @ts-check
-import rsEslint from "@rebeccastevens/eslint-config";
+import oxlint from 'eslint-plugin-oxlint';
+import { createJiti } from "jiti";
 
-export default rsEslint({
-  projectRoot: import.meta.dirname,
-  mode: "library",
-  typescript: {
-    unsafe: "off",
-  },
-  formatters: true,
-  functional: "recommended",
-  jsonc: true,
-  markdown: true,
-  stylistic: true,
-  yaml: true,
-});
+import eslintConfig from "./eslint.config.actual.js";
+
+const jiti = createJiti(import.meta.url);
+
+/**
+ * @type {import('./oxlint.config.ts').default}
+ */
+const oxlintConfig = jiti.import("./oxlint.config.ts", { default: true });
+
+export default [
+  ...eslintConfig,
+  ...oxlint.buildFromOxlintConfig(oxlintConfig),
+];

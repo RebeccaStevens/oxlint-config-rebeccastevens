@@ -37,18 +37,9 @@ Note: This project doesn't strictly follow semantic versioning so be sure to pin
 ```ts
 // oxlint.config.ts
 import rsOxlint from "@rebeccastevens/oxlint-config";
+import { defineConfig } from "oxlint";
 
-export default rsOxlint(
-  {
-    // general config.
-  },
-  {
-    // project specific config.
-  },
-  {
-    // another project specific config.
-  },
-);
+// TODO
 ```
 
 See [OXLint configuration](https://oxc.rs/docs/guide/usage/linter/config) for more information.
