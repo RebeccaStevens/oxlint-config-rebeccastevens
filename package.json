@@ -123,5 +123,5 @@
     "vitest": "4.0.18",
     "yaml-eslint-parser": "2.0.0"
   },
-  "packageManager": "pnpm@10.30.2"
+  "packageManager": "pnpm@12.16.1"
 }
