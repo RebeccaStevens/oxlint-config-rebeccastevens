@@ -65,7 +65,7 @@
   },
   "dependencies": {
     "@rebeccastevens/eslint-config": "^3.9.5",
-    "oxlint-tsgolint": "^0.15.0"
+    "oxlint-tsgolint": "^7.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "20.4.2",
